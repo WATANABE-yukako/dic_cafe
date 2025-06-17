@@ -1,0 +1,225 @@
+@charset "utf-8";
+html {
+  height: 100%;
+}
+body {
+  position: relative;
+  padding-bottom: 75px;
+  min-height: 100%;
+}
+li {
+  list-style: none;
+}
+p, ul {
+  margin: 0;
+  padding: 0;
+}
+div,li {
+  box-sizing: border-box;
+}
+.header_nav {
+  background: linear-gradient(90deg, #fff 20%, rgba(0,0,0,.6) 60%);
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  align-items: stretch;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.global_nav_item {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+.global_nav_item:hover {
+  background: #fff;
+  color: #42210b;
+}
+.global_nav {
+  display: flex;
+  align-items: stretch;
+}
+.logo {
+  width: 120px;
+  display: flex;
+  align-items: center;
+}
+.logo img{
+  width: 100%;
+}
+.section_inner {
+  padding: 50px 10% 30px;
+}
+.key {
+  height: 500px;
+  background: center / cover no-repeat url("../images/sample_key.jpg");
+  font-family: 'Noto Serif JP', serif;
+  font-weight: bold;
+}
+.key h1{
+  font-size: 2.5rem;
+}
+.section_title {
+  font-family: 'Noto Serif JP', serif;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.menu_title {
+  display: inline-block;
+  font-family: 'Noto Serif JP', serif;
+  font-size: 1.5rem;
+  color: #42210b;
+  border-bottom: solid #42210b 1px;
+  margin-bottom: 20px;
+}
+.center {
+  text-align: center;
+}
+.key.section_inner{
+    display: flex;
+  flex-direction: column;
+  justify-content: center; /* 縦方向中央揃え */
+  height: 100vh;           /* 縦方向の中央揃えのための高さ */
+}
+.concept_layout .concept_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 5%;
+  margin-top: 1em; /* 適度な余白 */
+}
+.concept_text {
+  width: 60%;
+}
+.concept_image {
+  width: 35%;
+}
+.concept_image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.menu{
+  background-image: url("../images/sample_menu_bg.jpg") ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+/*0612tuika*/
+.pancake_layout{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  gap: 2%;
+}
+.pancake_layout img{
+  width: 55%;
+  object-fit: cover;
+}
+.blueberry_layout{
+  display: flex;
+  width: 49%;
+  background-color: #f9f9f9;
+  overflow: hidden;
+  height: 300px;
+}
+.pancake_text{
+  padding: 10px;
+  width: 45%;
+}
+
+.caffee_menu_image {
+  width: 20%;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.menu_title {
+  font-size: 1.8rem;
+}
+.coffee_menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #ffffff;
+  list-style: none;
+  gap: 20px;
+}
+.coffee_item {
+  display: flex;
+  align-items: center;
+  width: 49%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.caffee_menu_image {
+  width: 20%;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+.coffee_item h2 {
+  font-size: 1rem;
+  margin: 0 0 5px;
+}
+.coffee_item p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #444;
+}
+.access_item {
+  display: flex;
+  margin-bottom: 10px;
+}
+.access_item dt {
+  width: 80px;
+  font-weight: bold;
+}
+footer {
+  background-color: #251e19; 
+  color: #fff;                
+  padding: 20px 0;          
+  text-align: center;          
+}
+
+/* メニュー＋ロゴを横並びに */
+.footer_nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;                   
+  list-style: none;           
+  padding: 0;
+  margin: 0 0 10px 0;          
+}
+
+/* メニュー項目の文字 */
+.footer_nav li {
+  font-size: 0.9rem;
+}
+
+/* メニューリンク */
+.footer_nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer_nav a:hover {
+  text-decoration: underline;
+}
+
+/* ロゴ画像の調整 */
+.footer_logo {
+  height: 25px;
+  vertical-align: middle;
+}
