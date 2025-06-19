@@ -187,8 +187,9 @@ div,li {
 }
 footer {
   background-color: #251e19; 
-  color: #fff;                
-  padding: 20px 0;          
+  color: #fff;
+  height: 75px; /* ← 追加した場所*/                
+  padding: 0;          
   text-align: center;          
 }
 
